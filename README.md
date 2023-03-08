@@ -6,7 +6,7 @@ First things first:
 Follow the instructions in @todbot blog to compile a custom version of Circuitpython. The default version allow only one display, and you get a bunch of errors.
 https://todbot.com/blog/2022/05/19/multiple-displays-in-circuitpython-compiling-custom-circuitpython/
 
-I've shared the GIF file (I started this project testing the new animated GIF implementation for Circuitpython). This youtube video shows what I've done.
+I've shared my compiled firmware (for Raspberry Pi Pico W) and the GIF files (I started this project testing the new animated GIF implementation for Circuitpython). This youtube video shows what I've done.
 https://www.youtube.com/watch?v=DQaZTZmtok0
 
 Tod suggests two displays, but I will try with four... Lets see if it works.
