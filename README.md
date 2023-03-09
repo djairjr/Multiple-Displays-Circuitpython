@@ -170,7 +170,7 @@ for i in range (3):
     print ("RST Line ", cfgline[i][2])
     display_bus[i] = displayio.FourWire(spi, command=cfgline[i][0], chip_select=cfgline[i][1], reset=cfgline[i][2], baudrate = 24000000)
     display[i] = gc9a01.GC9A01(display_bus[i], width=240, height=240)
-    valve[i] = displayio.Group(scale = 6) # Frame with 60 x 60 px
+    valve[i] = displayio.Group(scale = 6) # Even with frame with 40 x 40 px, does not work at all
     # Create the sprite TileGrid
     numbers[i] = displayio.TileGrid(
         sprite_sheet,
